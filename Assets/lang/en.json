@@ -1,0 +1,187 @@
+{
+  "VideoScreen" :
+  {
+    "btnNext": "Next"
+  },
+  "CategoryScreen" :
+  {
+    "lblTitle" : "Category",
+    "lblSubTitle" : "Please select your category",
+    "lblCatTitle1" : "Beneficiary",
+    "lblCatDesc1" : "Someone who needs help",
+    "lblCatTitle2" : "Donor",
+    "lblCatDesc2" : "A person that donates to help others",
+    "lblCatTitle3" : "Merchant",
+    "lblCatDesc3" : "Owner of a grocery shop,  butcher shop, fresh market food, bakery or a pharmacy"
+  },
+  "WelcomeScreen" :
+  {
+    "lblTitle" : "Welcome to Rise!",
+    "txtContent1" : "First Step: You need to create a profile for your family. Please enter the enquired information accurately.",
+    "txtContent2" : "Next we will verify the information and we may need to contact or visit yo for further investigation, to ensure that all the information is correct and accurate. ",
+    "btnGetStarted" : "GET STARTED",
+    "txtClickable" : "or click here to Login"
+  },
+  "LoginScreen":
+  {
+    "lblTitle": "Welcome!",
+    "lblSubTitle": "Please Login with your Username/Email Address and Password",
+    "lblUserName": "User Name or Email Address",
+    "lblPass": "Password",
+    "lblForgetPass": "Forget Password?",
+    "btnLogin": "LOGIN"
+  },
+  "ResetPasswordScreen":
+  {
+    "lblTitle": "Reset \n Password!",
+    "lblSubTitle": "Please enter the email associated with your account and we’ll send an email with instructions to reset your password",
+    "lblEmail": "Email Address",
+    "btnSendInstruct": "SEND INSTRUCTIONS"
+  },
+  "CheckMailScreen":
+  {
+    "lblTitle": "Check Your Mail",
+    "lblSubTitle": "We have sent a password recover instructions to your email",
+    "btnOpenMail": "Open Email App",
+    "txtClickableSkip": "Skip, I’ll confirm later",
+    "lblFooterNote1": "Did not receive the email? Check your spam filter, or ",
+    "lblFooterNote2": "Try another email address"
+  },
+  "CreateNewPassScreen":
+  {
+    "lblTitle": "Create New Password!",
+    "lblSubTitle": "Your new password must be different from previous used passwords",
+    "lblNewPass": "New Password*",
+    "lblConfirmPass": "Confirm Password*",
+    "btnReset": "RESET PASSWORD"
+  },
+  "PassChangeDialog":
+  {
+    "lblTitle": "Password Changes!",
+    "lblSubTitle": "Your password has been changed successfully. Now you can login to you account using new password.",
+    "btnContinue": "CONTINUE"
+  },
+  "SignUpScreen":
+  {
+    "lblTitle": "Hello!",
+    "lblSubTitle": "Please fill in to sign up new account",
+    "lblUserName": "Username*",
+    "lblEmail": "Email Address*",
+    "lblPass": "Password*",
+    "lblPassHint": "Must be at least 8 characters",
+    "lblConfirmPass": "Confirm Password*",
+    "lblConfirmHint": "Both passwords must match",
+    "chkContentTxt1part1": "I read and consent to Rise data",
+    "chkContentSpan1part1": " Privacy Policy",
+    "chkContentTxt1part2": " unless that is mentioned in the ",
+    "chkContentSpan1part2": "Terms and Conditions.",
+    "chkContentTxt2": "Yes, I wish to be contacted and to receive information and surveys. ",
+    "btnSign": "SIGN UP"
+  },
+  "ErrorDialog":
+  {
+    "lblTitle": "Sorry!",
+    "lblSubTitle": "An active application exists. You are not eligible to apply again at this moment.",
+    "btnContinue": "LEARN MORE"
+  },
+
+  "BeneficiarySignUpScreen":
+  {
+    "lblTitle": "Hello!",
+    "lblSubTitle": "Please fill in to sign up new account",
+    "lblUserName": "Username*",
+    "lblFname": "First Name*",
+    "lblLname": "Last Name*",
+    "lblNickName": "Nick Name (Optional)",
+    "lblNickHint": "If you prefer not to share your real name with the other users",
+    "lblEmail": "Email Address*",
+    "lblPass": "Password*",
+    "lblPassHint": "Must be at least 8 characters",
+    "lblConfirmPass": "Confirm Password*",
+    "lblConfirmHint": "Both passwords must match",
+    "chkContentTxt1part1": "I read and consent to Rise data",
+    "chkContentSpan1part1": " Privacy Policy",
+    "chkContentTxt1part2": " unless that is mentioned in the ",
+    "chkContentSpan1part2": "Terms and Conditions.",
+    "chkContentTxt2": "Yes, I wish to be contacted and to receive information and surveys. ",
+    "btnSign": "SIGN UP"
+  },
+  "BeneficiaryCompleteProfile":
+  {
+    "lblTitle": "Profile Information",
+    "lblSubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+    "lblRegistrationNb": "Registry Number*",
+    "lblCountry": "Country of Origin*",
+    "lblGender":"Gender*",
+    "lblStatus": "Marital Status",
+    "lblType": "Identification Type*",
+    "lblIdNb": "Enter ID Number*",
+    "lblImageId": "Upload ID or Ikhraj Keid*",
+    "lblNGOName": "Enter NGO Name",
+    "lblNGONb": "Enter NGO Number",
+    "lblOccupation": "Select Occupation",
+    "lblMonthlyIncome": "Enter Average Monthly Income*",
+    "lblEducationLevel": "Select Education Level*",
+    "lblLocation": "Select the Location from the Map*",
+    "lblStreetAddress": "Enter the Street Address*",
+    "lblBuilding":"Enter Building*",
+    "lblApartment": "Apartment Number*",
+    "lblDOB": "Date of Birth*",
+    "lblMobile": "Mobile Number*",
+    "lblLandline": "Landline Phone Number*",
+    "lblFamilyMemberNb": "How many Members are there in the Family? \n (Excluding the applicant)",
+    "lblFamilyBook": "Upload Family Book*",
+    "btnNext": "Next"
+  },
+
+  "DonorQuickSignIn":
+  {
+    "lblTitle": "Quick Sign in",
+    "lblSubTitle": "Use these options to make a quick sign in and start spreading your goodness...",
+    "lblOR": "or",
+    "btnCreate": "CREATE RISE ACCOUNT"
+  },
+  "DonorLoginScreen":
+  {
+    "lblTitle": "Welcome!",
+    "lblSubTitle": "Login to your account now.",
+    "lblOR": "or",
+    "btnLogin": "Login with Email & Password"
+  },
+  "DonorCompleteProfile":
+  {
+    "lblTitle": "Profile Information",
+    "lblSubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+    "lblFname": "First Name",
+    "lblLname": "Last Name",
+    "lblNickName":"Nick Name",
+    "lblGender": "Gender*",
+    "lblDOB": "Date of Birth*",
+    "lblCountry": "Country of Origin*",
+    "lblNationality": "Nationality",
+    "lblInterest": "Donation Interest",
+    "btnFinish": "Finished"
+  },
+
+  "MerchantCompleteProfile":
+  {
+    "lblTitle": "Profile Information",
+    "lblSubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+    "lblStoreName": "Store Name*",
+    "lblPersonName": "Contact Person Name*",
+    "lblStorePhone":"Store Phone Number*",
+    "lblContactNB": "Contact Person Mobile Number",
+    "lblLocation": "Select the Location from the Map*",
+    "lblStreetAddress": "Enter the Street Address*",
+    "lblRegistrationNb": "Regitration Number*",
+    "lblTrade": "Trade Mark Number*",
+    "lblType": "Identification Type",
+    "lblImageId": "Upload ID or Ikhraj Keid*",
+    "lblImageLicense": "Upload Trade License*",
+    "lblImageRegistration": "Upload Registration Copy*",
+    "ChkText1": "Read the",
+    "chkText2":" Contract ",
+    "chkText3":"and Approve it",
+    "btnNext": "Next"
+  }
+}
