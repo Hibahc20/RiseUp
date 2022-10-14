@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:rise_up/CommonPages/bottom_nav.dart';
 import 'package:rise_up/lang/codegen_loader.g.dart';
-import 'CommonPages/SplashScreen.dart';
+import 'package:sizer/sizer.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 void main() async {
@@ -22,12 +23,16 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      localizationsDelegates: context.localizationDelegates,
-      supportedLocales: context.supportedLocales,
-      locale: context.locale,
-      home: const SplashScreen(),
+    return Sizer(
+      builder: (context, orientation, deviceType) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          localizationsDelegates: context.localizationDelegates,
+          supportedLocales: context.supportedLocales,
+          locale: context.locale,
+          home: const BottomNav(),
+        );
+      },
     );
   }
 }

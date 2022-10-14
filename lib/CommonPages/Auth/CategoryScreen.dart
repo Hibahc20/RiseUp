@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rise_up/CommonPages/WelcomeScreen.dart';
+import 'package:rise_up/CommonPages/Auth/WelcomeScreen.dart';
 import 'package:rise_up/lang/locale_keys.g.dart';
-import '../Colors.dart';
+import '../../Colors.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 class CategoryScreen extends StatefulWidget {

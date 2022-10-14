@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../Colors.dart';
+import '../../Colors.dart';
 import 'VideoScreen.dart';
 import 'package:easy_localization/easy_localization.dart';
 class LanguageScreen extends StatefulWidget {

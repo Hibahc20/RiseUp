@@ -4,11 +4,11 @@ import 'package:checkbox_formfield/checkbox_formfield.dart';
 import 'package:flutter/material.dart';
 import 'package:rise_up/DonorPages/DonorCompleteProfile.dart';
 import 'package:rise_up/lang/locale_keys.g.dart';
-import '../Colors.dart';
+import '../../Colors.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:http/http.dart' as http;
 
-import '../MerchantPages/MerchantCompleteProfile.dart';
+import '../../MerchantPages/MerchantCompleteProfile.dart';
 
 class SignUpToFillScreen  extends StatefulWidget {
   String category;

@@ -10,3 +10,4 @@ const whiteColor = Color(0xffFFFFFF);
 const redColor = Color(0xffF94343);
 const greyInputColor = Color(0xffcccccc);
 const greyLabelColor = Color(0xffEAECEE);
+const bottomNavGrey = Color(0XFFa9a9a9);

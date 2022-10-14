@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import '../lang/locale_keys.g.dart';
-import '../CommonPages/LoginScreen.dart';
+import '../CommonPages/Auth/LoginScreen.dart';
 import '../Colors.dart';
 
 class DonorLoginScreen extends StatefulWidget {

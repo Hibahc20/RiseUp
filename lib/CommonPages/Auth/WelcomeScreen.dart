@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:rise_up/CommonPages/LoginScreen.dart';
+import 'package:rise_up/CommonPages/Auth/LoginScreen.dart';
 import 'package:rise_up/BeneficiaryPages/BeneficiarySignUpToFillScreen.dart';
 import 'package:rise_up/DonorPages/DonorLoginScreen.dart';
-import '../Colors.dart';
+import '../../Colors.dart';
 import 'package:easy_localization/easy_localization.dart';
-import '../DonorPages/QuickSignInScreen.dart';
-import '../lang/locale_keys.g.dart';
+import '../../DonorPages/QuickSignInScreen.dart';
+import '../../lang/locale_keys.g.dart';
 import 'SignUpToFillScreen.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -113,7 +113,7 @@ class WelcomeScreen extends StatelessWidget {
                   child: Text(
                     LocaleKeys.WelcomeScreen_btnGetStarted.tr(),
                     style:const TextStyle(
-                      color: blueTextColor,
+                      color: Colors.white,
                       fontFamily: "Open Sans",
                       fontWeight: FontWeight.w600,
                       fontSize: 18,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:rise_up/CommonPages/CategoryScreen.dart';
-import '../Colors.dart';
+import 'package:rise_up/CommonPages/Auth/CategoryScreen.dart';
+import '../../Colors.dart';
 import 'package:video_player/video_player.dart';
-import '../lang/locale_keys.g.dart';
+import '../../lang/locale_keys.g.dart';
 import 'package:easy_localization/easy_localization.dart';
 class VideoScreen extends StatefulWidget {
   const VideoScreen

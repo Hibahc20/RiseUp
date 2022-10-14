@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'LanguageScreen.dart';
-import '../Colors.dart';
+import '../../Colors.dart';
 void main() {
   runApp(const SplashScreen());
 }

@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import '../lang/locale_keys.g.dart';
+import '../../lang/locale_keys.g.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:rise_up/PasswordReset/ResetPasswordScreen.dart';
-import '../Colors.dart';
+import '../../Colors.dart';
 import 'package:http/http.dart' as http;
 
 class LoginScreen extends StatefulWidget {
